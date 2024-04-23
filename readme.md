@@ -1,11 +1,3 @@
-This tutorial is now DEPRECATED
-===============================
-
-# DEPRECATED and unmaintained, don't use this tutorial
-
-# Go to [belabox.net](https://belabox.net/) for the current installation instructions
-
-
 Intro
 =====
 
@@ -39,7 +31,7 @@ Step 3
 Installing the required dependencies:
 
     sudo apt-get install nano build-essential git tcl libssl1.0-dev nodejs npm usb-modeswitch libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
-    
+
 Step 4
 ------
 Add the google DNS servers so you have some resolvers accessible through any Internet-connected interfaces, as opposed to the servers accessible through a single mobile operator that you may be getting from DHCP:
@@ -75,7 +67,7 @@ Step 6
 Installing (the BELABOX fork of) SRT:
 
     cd
-    git clone https://github.com/BELABOX/srt.git
+    git clone https://github.com/mako220/srt.git
     cd srt
     ./configure --prefix=/usr/local
     make -j4
@@ -87,16 +79,16 @@ Step 7
 Building belacoder:
 
     cd
-    git clone https://github.com/BELABOX/belacoder.git
+    git clone https://github.com/mako220/belacoder.git
     cd belacoder
     make
-    
+
 Step 8
 ------
 Building srtla:
 
     cd
-    git clone https://github.com/BELABOX/srtla.git
+    git clone https://github.com/mako220/srtla.git
     cd srtla
     make
 
@@ -105,7 +97,7 @@ Step 9
 Setting up belaUI:
 
     cd
-    git clone https://github.com/BELABOX/belaUI.git
+    git clone https://github.com/mako220/belaUI.git
     cd belaUI
     git checkout ws_nodejs
 
